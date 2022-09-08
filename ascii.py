@@ -7,8 +7,8 @@ values = []
 for i in sentence:
     values.append(ord(i))
 
-mx = max(values)
-mn = min(values)
-difference = mx - mn
+max = max(values)
+min = min(values)
+difference = max - min
 
 print(difference)
